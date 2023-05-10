@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 250vh;
+    background-color:#FF4500;
+   
+}
+.divh{
+    height: 4%;
+    width: 100%;
+}
+.menu{
+    height:96%;
+    width: 100%;
+}
+.divh h1{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-size: 40px;
+    padding-top:20px;
+    letter-spacing: 2px;
+}
+
+.child{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+   
+}
+.item1{
+    width: 30%;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 13px 12px rgb(40, 40, 40);
+    position: relative;
+    overflow: hidden;
+    /* margin-left: 10px;
+    margin-top: 10px; */
+    /* margin: 0 auto; */
+}
+
+.item2{
+    width: 30%;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 13px 12px rgb(40, 40, 40);
+    position: relative;
+    overflow: hidden;
+    /* margin-left: 10px;
+    margin-top: 10px; */
+    /* margin: 5px auto; */
+    
+    
+}
+
+.item3{
+    width: 30%;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 13px 12px rgb(40, 40, 40);
+    position: relative;
+    overflow: hidden;
+ 
+    
+}
+.item4{
+    width: 30%;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 13px 12px rgb(40, 40, 40);
+    position: relative;
+    overflow: hidden;
+ 
+}
+.image{
+    width: 100%;
+    height: 80%;
+    background-color: #FF4500;
+    
+}
+.image img{
+    width:100%;
+    height: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+.duplicate-image{
+    width:100%;
+    height: 80%;
+    border-radius: 15px 15px 0px 0px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color:white;
+    position: absolute;
+    top:-100%;
+    left: 0%;
+    transition: all 0.6s 0s ease-in-out;
+    
+}
+.duplicate-image h1{
+    color:#ffffff;
+    padding-top: 15px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.duplicate-image h3{
+    padding-top: 20px;
+    line-height: 15px;
+    text-align: center;
+    padding-bottom:9px;
+    color: #FF4500;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: cursive;
+}
+.duplicate-image p{
+    color:#ffffff;
+    font-family: cursive;
+    text-align: center;
+    
+}
+.item1:hover .duplicate-image{
+    top:0%;
+    
+}
+.item2:hover .duplicate-image{
+    top:0%;
+    
+}
+.item3:hover .duplicate-image{
+    top:0%; 
+}
+.item4:hover .duplicate-image{
+    top:0%;
+    
+}
+.text{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    transition: 0.4s all 0s ease-in-out;
+}
+.text:hover{
+    background-color: rgb(139, 139, 139);
+}
+.text button{
+    padding: 12px 25px;
+    text-align: center;
+    background-color: #FF4500;
+    border: none;
+    color: rgb(255, 255, 255);
+    transition: 0.4s all 0s ease-in-out;
+    cursor: pointer;
+}
+.text button:hover{
+    background-color: black;
+}
+.text p{
+    padding-left: 10px;
+    font-family: cursive;
+    font-weight: 200;
+    font-size: 22px;
+}
+.text h3{
+    font-size: 23px;
+    ;
+}
